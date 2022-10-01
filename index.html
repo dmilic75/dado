@@ -8,7 +8,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Dado</title>
-        <meta name="description" content="">
+        <meta name="description" content="Ovo je moj prvi web sajt!">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="">
     </head>
@@ -16,7 +16,35 @@
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        <h1>bla bla bla</h1>
+        <h1 class="title">Dobrodosli u carstvo gljiva, grad gljiva</h1>
+        <img src="./slika.png" class="image"  />
         <script src="" async defer></script>
     </body>
 </html>
+
+<style>
+    body {
+        margin: 0;
+    }
+
+  .title {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -100px;
+  }
+
+  .image {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+</style>
